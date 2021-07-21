@@ -22,7 +22,7 @@ if [ ! -f "artisan" ]; then
 
     echo "Downloading the Theme you picked"
     mkdir -p tempdown && cd tempdown && git clone https://github.com/talistech/talistech-panel .
-    cp -r talistech-panel/TalistechTheme/public ..
+    cp -r TalistechTheme/public ..
 
 
     echo "Files have been copied over!"
